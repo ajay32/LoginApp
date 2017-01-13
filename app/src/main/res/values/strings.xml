@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="yahoo">YAHOO</string>
+    <string name="google">GOOGLE+</string>
+    <string name="instagram">INSTAGRAM</string>
+    <string name="linkedin">LINKEDIN</string>
+    <string name="windowsLive">WINDOWS LIVE</string>
+    <string name="github">GITHUB</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+
+    <string name="facebook_app_key">620576751450407</string>
+    <string name="facebook_app_secret">6ca9d5427f84bca87d93415f4a0d5fcf</string>
+    
+    
+    <string name="twitter_app_key">QWELZdMpAcv2yLWYHWnBWZykB</string>
+    <string name="twitter_app_secret">SzlwMSnt5NT1G3M1PCbbYTmrPK4hifBQRyQIjnmNol0rSREJvb</string>
+    
+    <string name="instagram_app_key">a8100fa8b98845b0a4f4d1cdc27addc0</string>
+    <string name="instagram_app_secret">f9b0ea10d9624101a4d9cfff03be29cf </string>
+    
+    
+    <string name="google_plus_app_key">588993726914-lvfvhrfpsq4gbji7gjtn09svbsspbi6c.apps.googleusercontent.com</string>
+    <string name="google_plus_app_secret">J1wKhC-MVogcYvJi3ajj8ea_</string>
+
+    <string name="yahoo_app_key">
+dj0yJmk9SmFCVnRmS0d1SXM0JmQ9WVdrOWRWZGtSamQ0TldNbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD0wZA--</string>
+    <string name="yahoo_app_secret">9170114b95d45ec037e1fcb9ffe26d93f786f53e</string>
+
+
+    <string name="windows_live_app_key">49a9676e-3691-403c-8408-35934bc46645</string>
+    <string name="windows_live_app_secret">PsxGjQQ9zubzPcikTUzPFFd</string>
+
+    <string name="github_app_key">f8cda96877cacbe29a27</string>
+    <string name="github_app_secret">96e2b82309bc8fb8bd5665ff7fbe00f56c4accd1</string>
+
+    <string name="linked_in_app_key">755hc0ruq5pq8u</string>
+    <string name="linked_in_app_secret">ywwqvt9x73xycCEP</string>
+
+
+
+
+</resources>

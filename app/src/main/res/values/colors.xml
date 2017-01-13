@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="facebook">#E3F2FD</color>
+    <color name="twitter">#BBDEFB</color>\
+    <color name="google">#90CAF9</color>
+    <color name="instagram">#64B5F6</color>
+    <color name="linkdin">#42A5F5</color>
+    <color name="yahoo">#2196F3</color>
+    <color name="windows">#1E88E5</color>
+    <color name="github">#1976D2</color>
+
+</resources>
