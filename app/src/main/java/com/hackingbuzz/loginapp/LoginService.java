@@ -83,11 +83,14 @@ public class LoginService extends IntentService {
                 Intent detailsIntent = new Intent(getApplicationContext(), DetailsActivity.class);
 
                 //To directly start activities from an IntentService, we need to add this flag
-                detailsIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                detailsIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);   // its not working before but putExtra method
 
                 //Send the User Account object with all details
                 // to pass objects in android we can use parcable technique or java serilization (through intents)
                 detailsIntent.putExtra(EXTRA_SOCIAL_ACCOUNT, account);  // key value pair (key is constact we taken above ) ..u may use it when u need to use it like this when u need to use it in more than one place
+               
+                detailsIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);  // required if you are calling an activity from outside activity(means other than any other activity)..here i am calling through service  // facing instagram run time error
+
                 startActivity(detailsIntent);
             } catch (AuthenticationException e) {
 
